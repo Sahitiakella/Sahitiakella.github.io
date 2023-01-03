@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+<meta charset="utf-8">
+<title>Implement Sticky Header and Footer with CSS</title>
+<style>
+    /* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .header{
+        width: 100%;
+        position: fixed;        
+        background: #fff;
+        padding: 20px 0;
+        color: #fff;
+    }
+    .footer{
+        width: 100%;
+        position: fixed;        
+        background: #351959;
+        padding: 30px;
+        color: white;
+    }
+    .header{
+        top: 0;
+    }
+    .footer{
+        bottom: 0;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    .main_text{
+        width: 700px;
+        margin: left;
+        border: 3px solid #73AD21;
+    }
+    .lottie{
+        width: 500px;
+        margin-left: 50%;
+        border: 3px solid #73AD21;
+    }
+    nav a{
+        color: #351959;
+        text-decoration: none;
+        padding: 2px 25px;
+        display: inline-block;
+        font-family: 'Inter';
+        font-size: 20px;
+        margin-left: 0%;
+    }
+    .photo{
+        width: 500px;
+        margin-left: 50%;
+        border: 3px solid #73AD21;
+    }
+</style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <a href="file:///Users/sahiti/Desktop/Website/Sahitiakella.github.io/html/homepage.html">Home</a>
+                <a href="file:///Users/sahiti/Desktop/Website/Sahitiakella.github.io/html/aboutme.html">About Me</a>
+                <a href="file:///Users/sahiti/Desktop/Website/Sahitiakella.github.io/html/courses.html">Courses</a>
+                <a href="file:///Users/sahiti/Desktop/Website/Sahitiakella.github.io/html/experience.html">Experience</a>
+                <a href="file:///Users/sahiti/Desktop/Website/Sahitiakella.github.io/html/contact.html">Contact</a>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="main_text">
+        <p style = "color:#351959; font-family: 'Inter';
+        font-size: 80px;"> about me</p>
+        <p style = "color:#351959; font-family: 'Inter';
+        font-size: 17px;">I’m currently a 2nd year Software Engineering student at the University of Calgary. 
+        I enjoy learning about web development, machine learning, and full stack development. <br><br>
+        I hope to pursue a Master’s in Business Administration in the future and work as a software engineer. <br><br>
+        While I’m not busy working on school projects, I enjoy reading, painting, and exploring new places. 
+        I’m also listening to music 24/7; whether it be rnb, rock, jazz, and any other genre you can think of. </p>
+    </div>
+    </div> 
+    
+      
+    <div class="footer">
+        <div class="container">Copyright &copy; 2016 Your Company</div>        
+    </div>
+</body>
+</html>
